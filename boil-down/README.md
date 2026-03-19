@@ -145,34 +145,6 @@ NOTES_DIR/
 
 ---
 
-## 安装方法
-
-### 1. 安装 Claude Code
-
-https://claude.ai/code
-
-### 2. 复制 skill 文件
-
-把 `SKILL.md` 放到 Claude Code 的 skills 文件夹里：
-
-- **Mac/Linux：** `~/.claude/skills/boil-down/SKILL.md`
-- **Windows：** `C:\Users\你的用户名\.claude\skills\boil-down\SKILL.md`
-
-### 3. 设置笔记目录
-
-打开 `SKILL.md`，在顶部找到这一行并填入你的路径：
-
-```
-NOTES_DIR = C:\Users\alice\notes       # Windows
-NOTES_DIR = /Users/alice/notes         # Mac/Linux
-```
-
-### 4.（可选）自定义项目标签
-
-在 `SKILL.md` 里找到 **Project Detection Rules** 表格，按自己的项目添加行，这样 Claude 就能自动给每个 session 打上正确的项目标签。
-
----
-
 ## 使用方法
 
 正常和 Claude 工作。做完了，说一句：
@@ -182,6 +154,8 @@ NOTES_DIR = /Users/alice/notes         # Mac/Linux
 Claude 会生成四个文件，并告诉你保存在哪里。
 
 ---
+
+> 安装与配置说明见 [SKILL.md](./SKILL.md) 顶部。
 
 ## License
 

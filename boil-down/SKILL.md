@@ -5,6 +5,16 @@ description: Boil down current session to notes and update daily log. Use when u
 
 # Boil Down Session Skill
 
+## INSTALLATION
+
+1. Place this file at:
+   - **Mac/Linux:** `~/.claude/skills/boil-down/SKILL.md`
+   - **Windows:** `C:\Users\<you>\.claude\skills\boil-down\SKILL.md`
+2. Set `NOTES_DIR` below to your preferred notes folder.
+3. (Optional) Customize the Project Detection Rules table to match your own projects.
+
+---
+
 ## CONFIGURATION — Set This First
 
 Before using this skill, open this file and set your notes directory. This is the **only** path you need to configure. All output files will be created inside it.
